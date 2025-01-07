@@ -1,5 +1,7 @@
 # Sport Sales Analysis
 
+## by Confidence Rufus
+
 ### Project Overview
 This dataset deals with sport sales analysis from the period of 2022 to 2024. It contains  113,242 rows and 14 columns.
 The following are the column headers with their various descriptions:
@@ -20,7 +22,7 @@ The following are the column headers with their various descriptions:
 
 
 ### Business Problems
-E-Stars retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance.
+E-Stars retail is a chain of department stores that sells a wide range of products, including bikes and different components. The company is trying to identify increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance.
 
 The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
@@ -38,4 +40,14 @@ There are four key business questions:
 This dataset is an Excel file gotten from Spital Labs.
 
 ### Tools
-The main analytical tool used in carrying out this analysis was Advanced Excel techniques.
+The main analytical tool I used in carrying out this analysis was Advanced Excel techniques.
+
+
+### Data Transformation
+After opening the data in Excel, I did alot of transformation in Power QUery to remove columns that were not neccesary for my analysis.
+I also created 4 new columns namely: profit, cost, revenue and age category as I needed these information to properly carry out my analysis.  
+I had to use some advanced transformation in Power Query to clean the data, I removed some missing values while I used the statistical input method to fill in some. I filtered column by column to search for wrongly spelt words and used find and replace to correct them. 
+
+
+### Analysis and Visualization
+I used pivot tables to summarize my data and visualized the report in another page. 
